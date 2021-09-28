@@ -1,0 +1,92 @@
+.logo-box {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    padding: 20px;
+}
+
+.logo-box img{
+    height: 4rem;
+    width: auto;
+    float: left;
+    margin-top: 0;
+    margin-left: 1rem;
+    position: absolute;
+}
+
+.section-hero{
+    background-color: #fdf0e7;
+    padding: 0 6vw;
+    
+}
+
+.hero {
+    max-width: 100vw;
+    
+    display: grid;
+    margin : 0 auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-text-box {
+ margin-left: 4vw;
+ margin-right: 3vw;
+}
+
+.heading-primary {
+    font-family: 'IBMPlexSansKR-Bold';
+    font-size: 2.2rem;
+    font-weight: 1000;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+   
+}
+
+.hero-sub-description {
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 1.5rem;
+    line-height: 1.05;
+    margin-bottom: 1rem;
+    color: #555;
+
+}
+.hero-description {
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 1.5rem;
+    line-height: 1.05;
+    margin-bottom: 3rem;
+    color: #555;
+
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+   
+}
+
+
+
+.btn-app-two img {
+    height: 50px;
+    width: auto;
+    margin-right:100px;
+ 
+}
