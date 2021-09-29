@@ -1,0 +1,100 @@
+.grid{
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    
+}
+
+.grid--two-columns {
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.grid--three-columns {
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.grid--four-columns {
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid-center-v{
+    align-items: center;
+}
+.container {
+    max-width: 100vw;
+    padding: 0 3.2rem;
+    margin: 2rem auto;
+}
+
+.section-description {
+    padding: 10vh 6vw;
+}
+
+
+
+.app-screen-one {
+    width: 17vw;
+}
+
+.description-image-box{
+   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-image-box::before,
+.description-image-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description-image-box::before {
+    width: 70%;
+   
+    height: 70%;
+  
+    background-color: #fdf2e9;
+    z-index: -2;
+  }
+  
+  .description-image-box::after {
+    width: 55%;
+    height: 55%;
+    background-color: #fae5d3;
+    z-index: -1;
+  }
+
+.description-text-box {
+    width: 34vw;
+    margin-left: 3vw;
+}
+
+.description-heading-primary {
+    font-family: 'IBMPlexSansKR-Bold';
+    font-size: 1.6rem;
+    font-weight: 1000;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+}
+
+.description-text{
+    font-family: 'IBMPlexSansKR-Medium';
+    font-size: 1.4rem;
+    line-height: 2.05;
+    margin-bottom: 0;
+    color: #555;
+}
