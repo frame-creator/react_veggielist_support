@@ -1,0 +1,62 @@
+h2 {
+    font-size: 2rem;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: 'IBMPlexSansKR-Medium';
+    
+    line-height: 2.05;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+label {
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    text-align: end;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: 'IBMPlexSansKR-Medium';
+    
+    line-height: 2.05;
+    margin-bottom: 3rem;
+    color: #555;
+}
+
+input,
+textarea {
+    font-size: 1rem;
+    word-spacing: 2px;
+    
+    letter-spacing: 1px;
+    font-family: 'IBMPlexSansKR-Medium';
+    
+    
+    
+}
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } 
