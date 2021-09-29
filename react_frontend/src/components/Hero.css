@@ -90,3 +90,158 @@
     margin-right:100px;
  
 }
+
+
+@media (max-width: 1200px) {
+    .section-hero{
+        padding: 0 0;
+        
+    }
+    .hero {
+        
+        margin-top: 100px;
+        display: grid;
+        margin : 0 0;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .hero-text-box {
+        margin-top: 150px;
+        margin-left: 26px;
+        margin-right: 26px;
+       }
+       
+       .heading-primary {
+           font-family: 'IBMPlexSansKR-Bold';
+           font-size: 30px;
+           font-weight: 1000;
+           line-height: 1.05;
+           color: #333;
+           letter-spacing: -0.5;
+           margin-top: 0;
+           margin-bottom: 0;
+          
+       }
+       
+       .hero-sub-description {
+           
+           font-size: 25px;
+           line-height: 1.05;
+           margin-bottom: 0;
+           color: #555;
+       
+       }
+       .hero-description {
+           font-family: 'IBMPlexSansKR-Medium';
+           font-size: 25px;
+           line-height: 1.05;
+           margin-bottom: 50px;
+           color: #555;
+       
+       }
+       
+       .hero-img{
+           width: 100%;
+       }
+       
+       .btn-app:link,
+       .btn-app:visited {
+           border: 0;
+       }
+       
+       .btn-app img {
+           height: auto;
+           width: 160px;
+           margin-right: 10px;
+          
+       }
+       
+       
+       
+       .btn-app-two img {
+           height: auto;
+           width: 140px;
+           margin-right:0;
+        
+       }
+       
+
+}
+
+@media (max-width: 780px) {
+    .section-hero{
+        padding: 0 0;
+        
+    }
+    .hero {
+        
+        margin-top: 100px;
+        display: grid;
+        margin : 0 0;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .hero-text-box {
+        margin-top: 150px;
+        margin-left: 26px;
+        margin-right: 26px;
+       }
+       
+       .heading-primary {
+           font-family: 'IBMPlexSansKR-Bold';
+           font-size: 30px;
+           font-weight: 1000;
+           line-height: 1.05;
+           color: #333;
+           letter-spacing: -0.5;
+           margin-top: 0;
+           margin-bottom: 0;
+          
+       }
+       
+       .hero-sub-description {
+           
+           font-size: 25px;
+           line-height: 1.05;
+           margin-bottom: 0;
+           color: #555;
+       
+       }
+       .hero-description {
+           font-family: 'IBMPlexSansKR-Medium';
+           font-size: 25px;
+           line-height: 1.05;
+           margin-bottom: 50px;
+           color: #555;
+       
+       }
+       
+       .hero-img{
+           width: 100%;
+       }
+       
+       .btn-app:link,
+       .btn-app:visited {
+           border: 0;
+       }
+       
+       .btn-app img {
+           height: auto;
+           width: 160px;
+           margin-right: 10px;
+          
+       }
+       
+       
+       
+       .btn-app-two img {
+           height: auto;
+           width: 140px;
+           margin-right:0;
+        
+       }
+       
+
+}

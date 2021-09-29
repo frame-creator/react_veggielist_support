@@ -98,3 +98,101 @@
     margin-bottom: 0;
     color: #555;
 }
+
+
+@media (max-width: 780px) {
+    .grid{
+        display: grid;
+       
+        row-gap: 3rem;
+        
+    }
+    
+    .grid--two-columns {
+        grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .grid-center-v{
+        align-items: center;
+    }
+    .container {
+      
+        padding: 0 0;
+        margin: 0 auto;
+    }
+    
+    .section-description {
+        padding: 0 0;
+    }
+    
+    
+    
+    .app-screen-one {
+        width: 50%;
+    }
+    
+    .description-image-box{
+       
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .description-image-box::before,
+    .description-image-box::after {
+      content: "";
+      display: block;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .description-image-box::before {
+        width: 70%;
+       
+        height: 70%;
+      
+        background-color: #fdf2e9;
+        z-index: -2;
+      }
+      
+      .description-image-box::after {
+        width: 55%;
+        height: 55%;
+        background-color: #fae5d3;
+        z-index: -1;
+      }
+    
+    .description-text-box {
+        width: 80%;
+         margin: 0 10%;
+        
+    }
+    
+    .description-heading-primary {
+        font-family: 'IBMPlexSansKR-Bold';
+        font-size: 24px;
+        font-weight: 1000;
+        line-height: 1.05;
+        color: #333;
+        letter-spacing: -0.5;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+       
+    }
+    
+    .description-text{
+        font-family: 'IBMPlexSansKR-Medium';
+        font-size: 20px;
+        line-height: 2.05;
+        margin-bottom: 0;
+        color: #555;
+    }
+}
